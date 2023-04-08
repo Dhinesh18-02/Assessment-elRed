@@ -1,0 +1,75 @@
+.sidebar-wrapper{
+    display: grid;
+    grid-template-rows: 5vh 60vh 20vh;
+}
+
+.sidebar-logo{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 50%;
+}
+
+.sidebar-company{
+    margin-top: 10px;
+}
+.sidebar-pages{
+    display: grid;
+    grid-auto-rows: 5vh;
+    grid-gap: 15px;
+    margin-top: 50px;
+    /* padding: 70px 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* padding-top: 70px; */
+}
+
+.side-items{
+    display: grid;
+    grid-template-columns: 20% 30%;
+    white-space: nowrap;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+.active{
+    background-color: rgb(253, 224, 224);
+    border: 1px solid rgb(253, 224, 224);
+    border-radius: 5px;
+    height: 40px;
+    color:  #c90000 !important;
+    opacity: 1 !important;
+}
+
+.side-icons{
+    display: inline-flex;
+    align-items: center;
+}
+
+.side-items-names{
+      color:#606060;
+    opacity: 0.75;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+}
+.side-items-names-active{
+      color:#c90000;
+    opacity: 1;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.side-card{
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.link {
+  color:  #c90000 ;
+}
+.link:hover {
+   color:  #c90000;
+}
+#link:active{
+    color:  #c90000 !important;
+}

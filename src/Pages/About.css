@@ -1,0 +1,46 @@
+.aboutus-logo-row{
+    display: grid;
+    grid-template-columns: 7% 12% 70%;
+    margin-top: 40px;
+}
+.about-company{
+  margin-top: 3px;
+
+  display: grid;
+  grid-template-rows: 12% 15%;
+  gap: 25px;
+}
+
+.about-verify{
+    display: grid;
+    grid-template-columns: 4% 17%;
+    margin-top: 5px;
+}
+.about-desc{
+    display: grid;
+    grid-template-columns: 55% 20%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about{
+    /* margin-top: -20px; */
+    padding: 20px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+   color: #363636 !important; 
+   font-weight: 500;
+   opacity: 1;
+}
+.ant-tabs-tab.ant-tabs-tab-btn {
+   opacity: 0.5;
+   font-weight: 500;
+}
+.ant-tabs-ink-bar {
+   position: absolute;
+   background: #c90000 !important;
+   pointer-events: none;
+}
+
+

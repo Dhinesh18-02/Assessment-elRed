@@ -1,0 +1,26 @@
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: flex;
+    margin-left: -5px;
+}
+.header-search{
+    /* margin-left: 120px; */
+    width: 450px;
+    margin-left: 5px;
+}
+.header-checkout{
+    width: 100px;
+} 
+
+#inputId::placeholder{
+    color: black;
+    opacity: 1;
+}
+
